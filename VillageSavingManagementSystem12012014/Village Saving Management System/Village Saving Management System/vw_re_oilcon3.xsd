@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="vw_re_oilcon3" targetNamespace="http://tempuri.org/vw_re_oilcon3.xsd" xmlns:mstns="http://tempuri.org/vw_re_oilcon3.xsd" xmlns="http://tempuri.org/vw_re_oilcon3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="VillageConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="VillageConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Village_Saving_Management_System.My.MySettings.GlobalReference.Default.VillageConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vw_re_oilconTableAdapter" GeneratorDataComponentClassName="vw_re_oilconTableAdapter" Name="vw_re_oilcon" UserDataComponentName="vw_re_oilconTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="VillageConnectionString (MySettings)" DbObjectName="Village.dbo.vw_re_oilcon" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT contract_oil_no, buy_amount, sum_interest, create_date, cust_id, fullname, sum, sum_price FROM dbo.vw_re_oilcon</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="contract_oil_no" DataSetColumn="contract_oil_no" />
+              <Mapping SourceColumn="buy_amount" DataSetColumn="buy_amount" />
+              <Mapping SourceColumn="sum_interest" DataSetColumn="sum_interest" />
+              <Mapping SourceColumn="create_date" DataSetColumn="create_date" />
+              <Mapping SourceColumn="cust_id" DataSetColumn="cust_id" />
+              <Mapping SourceColumn="fullname" DataSetColumn="fullname" />
+              <Mapping SourceColumn="sum" DataSetColumn="sum" />
+              <Mapping SourceColumn="sum_price" DataSetColumn="sum_price" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="vw_re_oilcon3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="vw_re_oilcon3" msprop:Generator_UserDSName="vw_re_oilcon3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vw_re_oilcon" msprop:Generator_TableClassName="vw_re_oilconDataTable" msprop:Generator_TableVarName="tablevw_re_oilcon" msprop:Generator_TablePropName="vw_re_oilcon" msprop:Generator_RowDeletingName="vw_re_oilconRowDeleting" msprop:Generator_UserTableName="vw_re_oilcon" msprop:Generator_RowChangingName="vw_re_oilconRowChanging" msprop:Generator_RowEvHandlerName="vw_re_oilconRowChangeEventHandler" msprop:Generator_RowDeletedName="vw_re_oilconRowDeleted" msprop:Generator_RowEvArgName="vw_re_oilconRowChangeEvent" msprop:Generator_RowChangedName="vw_re_oilconRowChanged" msprop:Generator_RowClassName="vw_re_oilconRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="contract_oil_no" msprop:Generator_ColumnVarNameInTable="columncontract_oil_no" msprop:Generator_ColumnPropNameInRow="contract_oil_no" msprop:Generator_ColumnPropNameInTable="contract_oil_noColumn" msprop:Generator_UserColumnName="contract_oil_no" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="buy_amount" msprop:Generator_ColumnVarNameInTable="columnbuy_amount" msprop:Generator_ColumnPropNameInRow="buy_amount" msprop:Generator_ColumnPropNameInTable="buy_amountColumn" msprop:Generator_UserColumnName="buy_amount" type="xs:int" minOccurs="0" />
+              <xs:element name="sum_interest" msprop:Generator_ColumnVarNameInTable="columnsum_interest" msprop:Generator_ColumnPropNameInRow="sum_interest" msprop:Generator_ColumnPropNameInTable="sum_interestColumn" msprop:Generator_UserColumnName="sum_interest" type="xs:decimal" minOccurs="0" />
+              <xs:element name="create_date" msprop:Generator_ColumnVarNameInTable="columncreate_date" msprop:Generator_ColumnPropNameInRow="create_date" msprop:Generator_ColumnPropNameInTable="create_dateColumn" msprop:Generator_UserColumnName="create_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="cust_id" msprop:Generator_ColumnVarNameInTable="columncust_id" msprop:Generator_ColumnPropNameInRow="cust_id" msprop:Generator_ColumnPropNameInTable="cust_idColumn" msprop:Generator_UserColumnName="cust_id">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fullname" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnfullname" msprop:Generator_ColumnPropNameInRow="fullname" msprop:Generator_ColumnPropNameInTable="fullnameColumn" msprop:Generator_UserColumnName="fullname" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="105" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sum" msprop:Generator_ColumnVarNameInTable="columnsum" msprop:Generator_ColumnPropNameInRow="sum" msprop:Generator_ColumnPropNameInTable="sumColumn" msprop:Generator_UserColumnName="sum" type="xs:decimal" minOccurs="0" />
+              <xs:element name="sum_price" msprop:Generator_ColumnVarNameInTable="columnsum_price" msprop:Generator_ColumnPropNameInRow="sum_price" msprop:Generator_ColumnPropNameInTable="sum_priceColumn" msprop:Generator_UserColumnName="sum_price" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:vw_re_oilcon" />
+      <xs:field xpath="mstns:cust_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

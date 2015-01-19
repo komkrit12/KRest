@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="vw_re_con" targetNamespace="http://tempuri.org/vw_re_con.xsd" xmlns:mstns="http://tempuri.org/vw_re_con.xsd" xmlns="http://tempuri.org/vw_re_con.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="VillageConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="VillageConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Village_Saving_Management_System.My.MySettings.GlobalReference.Default.VillageConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ve_re_conTableAdapter" GeneratorDataComponentClassName="ve_re_conTableAdapter" Name="ve_re_con" UserDataComponentName="ve_re_conTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="VillageConnectionString (MySettings)" DbObjectName="Village.dbo.ve_re_con" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT contract_no, cust_id, loan_amount, sum_interest, sum, firstyear, secondyear, time_create, createby, guarantee_no1, guarantee_no2, status, fullname FROM dbo.ve_re_con</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="contract_no" DataSetColumn="contract_no" />
+              <Mapping SourceColumn="cust_id" DataSetColumn="cust_id" />
+              <Mapping SourceColumn="loan_amount" DataSetColumn="loan_amount" />
+              <Mapping SourceColumn="sum_interest" DataSetColumn="sum_interest" />
+              <Mapping SourceColumn="sum" DataSetColumn="sum" />
+              <Mapping SourceColumn="firstyear" DataSetColumn="firstyear" />
+              <Mapping SourceColumn="secondyear" DataSetColumn="secondyear" />
+              <Mapping SourceColumn="time_create" DataSetColumn="time_create" />
+              <Mapping SourceColumn="createby" DataSetColumn="createby" />
+              <Mapping SourceColumn="guarantee_no1" DataSetColumn="guarantee_no1" />
+              <Mapping SourceColumn="guarantee_no2" DataSetColumn="guarantee_no2" />
+              <Mapping SourceColumn="status" DataSetColumn="status" />
+              <Mapping SourceColumn="fullname" DataSetColumn="fullname" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="vw_re_con" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="vw_re_con" msprop:Generator_UserDSName="vw_re_con">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ve_re_con" msprop:Generator_TableClassName="ve_re_conDataTable" msprop:Generator_TableVarName="tableve_re_con" msprop:Generator_TablePropName="ve_re_con" msprop:Generator_RowDeletingName="ve_re_conRowDeleting" msprop:Generator_UserTableName="ve_re_con" msprop:Generator_RowChangingName="ve_re_conRowChanging" msprop:Generator_RowEvHandlerName="ve_re_conRowChangeEventHandler" msprop:Generator_RowDeletedName="ve_re_conRowDeleted" msprop:Generator_RowEvArgName="ve_re_conRowChangeEvent" msprop:Generator_RowChangedName="ve_re_conRowChanged" msprop:Generator_RowClassName="ve_re_conRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="contract_no" msprop:Generator_ColumnVarNameInTable="columncontract_no" msprop:Generator_ColumnPropNameInRow="contract_no" msprop:Generator_ColumnPropNameInTable="contract_noColumn" msprop:Generator_UserColumnName="contract_no">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cust_id" msprop:Generator_ColumnVarNameInTable="columncust_id" msprop:Generator_ColumnPropNameInRow="cust_id" msprop:Generator_ColumnPropNameInTable="cust_idColumn" msprop:Generator_UserColumnName="cust_id">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="loan_amount" msprop:Generator_ColumnVarNameInTable="columnloan_amount" msprop:Generator_ColumnPropNameInRow="loan_amount" msprop:Generator_ColumnPropNameInTable="loan_amountColumn" msprop:Generator_UserColumnName="loan_amount" type="xs:double" />
+              <xs:element name="sum_interest" msprop:Generator_ColumnVarNameInTable="columnsum_interest" msprop:Generator_ColumnPropNameInRow="sum_interest" msprop:Generator_ColumnPropNameInTable="sum_interestColumn" msprop:Generator_UserColumnName="sum_interest" type="xs:double" minOccurs="0" />
+              <xs:element name="sum" msprop:Generator_ColumnVarNameInTable="columnsum" msprop:Generator_ColumnPropNameInRow="sum" msprop:Generator_ColumnPropNameInTable="sumColumn" msprop:Generator_UserColumnName="sum" type="xs:double" minOccurs="0" />
+              <xs:element name="firstyear" msprop:Generator_ColumnVarNameInTable="columnfirstyear" msprop:Generator_ColumnPropNameInRow="firstyear" msprop:Generator_ColumnPropNameInTable="firstyearColumn" msprop:Generator_UserColumnName="firstyear" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="secondyear" msprop:Generator_ColumnVarNameInTable="columnsecondyear" msprop:Generator_ColumnPropNameInRow="secondyear" msprop:Generator_ColumnPropNameInTable="secondyearColumn" msprop:Generator_UserColumnName="secondyear" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="time_create" msprop:Generator_ColumnVarNameInTable="columntime_create" msprop:Generator_ColumnPropNameInRow="time_create" msprop:Generator_ColumnPropNameInTable="time_createColumn" msprop:Generator_UserColumnName="time_create" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="createby" msprop:Generator_ColumnVarNameInTable="columncreateby" msprop:Generator_ColumnPropNameInRow="createby" msprop:Generator_ColumnPropNameInTable="createbyColumn" msprop:Generator_UserColumnName="createby" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="guarantee_no1" msprop:Generator_ColumnVarNameInTable="columnguarantee_no1" msprop:Generator_ColumnPropNameInRow="guarantee_no1" msprop:Generator_ColumnPropNameInTable="guarantee_no1Column" msprop:Generator_UserColumnName="guarantee_no1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="guarantee_no2" msprop:Generator_ColumnVarNameInTable="columnguarantee_no2" msprop:Generator_ColumnPropNameInRow="guarantee_no2" msprop:Generator_ColumnPropNameInTable="guarantee_no2Column" msprop:Generator_UserColumnName="guarantee_no2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fullname" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnfullname" msprop:Generator_ColumnPropNameInRow="fullname" msprop:Generator_ColumnPropNameInTable="fullnameColumn" msprop:Generator_UserColumnName="fullname" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="102" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ve_re_con" />
+      <xs:field xpath="mstns:contract_no" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

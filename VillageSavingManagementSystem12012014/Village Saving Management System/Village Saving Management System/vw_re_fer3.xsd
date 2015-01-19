@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="vw_re_fer3" targetNamespace="http://tempuri.org/vw_re_fer3.xsd" xmlns:mstns="http://tempuri.org/vw_re_fer3.xsd" xmlns="http://tempuri.org/vw_re_fer3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="VillageConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="VillageConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Village_Saving_Management_System.My.MySettings.GlobalReference.Default.VillageConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vw_re_ferTableAdapter" GeneratorDataComponentClassName="vw_re_ferTableAdapter" Name="vw_re_fer" UserDataComponentName="vw_re_ferTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="VillageConnectionString (MySettings)" DbObjectName="Village.dbo.vw_re_fer" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT contract_fer_no, cust_id, fullname, pay_value, create_date, createby, cust_address FROM dbo.vw_re_fer</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="contract_fer_no" DataSetColumn="contract_fer_no" />
+              <Mapping SourceColumn="cust_id" DataSetColumn="cust_id" />
+              <Mapping SourceColumn="fullname" DataSetColumn="fullname" />
+              <Mapping SourceColumn="pay_value" DataSetColumn="pay_value" />
+              <Mapping SourceColumn="create_date" DataSetColumn="create_date" />
+              <Mapping SourceColumn="createby" DataSetColumn="createby" />
+              <Mapping SourceColumn="cust_address" DataSetColumn="cust_address" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="vw_re_fer3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="vw_re_fer3" msprop:Generator_UserDSName="vw_re_fer3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vw_re_fer" msprop:Generator_TableClassName="vw_re_ferDataTable" msprop:Generator_TableVarName="tablevw_re_fer" msprop:Generator_TablePropName="vw_re_fer" msprop:Generator_RowDeletingName="vw_re_ferRowDeleting" msprop:Generator_UserTableName="vw_re_fer" msprop:Generator_RowChangingName="vw_re_ferRowChanging" msprop:Generator_RowEvHandlerName="vw_re_ferRowChangeEventHandler" msprop:Generator_RowDeletedName="vw_re_ferRowDeleted" msprop:Generator_RowEvArgName="vw_re_ferRowChangeEvent" msprop:Generator_RowChangedName="vw_re_ferRowChanged" msprop:Generator_RowClassName="vw_re_ferRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="contract_fer_no" msprop:Generator_ColumnVarNameInTable="columncontract_fer_no" msprop:Generator_ColumnPropNameInRow="contract_fer_no" msprop:Generator_ColumnPropNameInTable="contract_fer_noColumn" msprop:Generator_UserColumnName="contract_fer_no">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cust_id" msprop:Generator_ColumnVarNameInTable="columncust_id" msprop:Generator_ColumnPropNameInRow="cust_id" msprop:Generator_ColumnPropNameInTable="cust_idColumn" msprop:Generator_UserColumnName="cust_id">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fullname" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnfullname" msprop:Generator_ColumnPropNameInRow="fullname" msprop:Generator_ColumnPropNameInTable="fullnameColumn" msprop:Generator_UserColumnName="fullname" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="102" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pay_value" msprop:Generator_ColumnVarNameInTable="columnpay_value" msprop:Generator_ColumnPropNameInRow="pay_value" msprop:Generator_ColumnPropNameInTable="pay_valueColumn" msprop:Generator_UserColumnName="pay_value" type="xs:decimal" minOccurs="0" />
+              <xs:element name="create_date" msprop:Generator_ColumnVarNameInTable="columncreate_date" msprop:Generator_ColumnPropNameInRow="create_date" msprop:Generator_ColumnPropNameInTable="create_dateColumn" msprop:Generator_UserColumnName="create_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="createby" msprop:Generator_ColumnVarNameInTable="columncreateby" msprop:Generator_ColumnPropNameInRow="createby" msprop:Generator_ColumnPropNameInTable="createbyColumn" msprop:Generator_UserColumnName="createby" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cust_address" msprop:Generator_ColumnVarNameInTable="columncust_address" msprop:Generator_ColumnPropNameInRow="cust_address" msprop:Generator_ColumnPropNameInTable="cust_addressColumn" msprop:Generator_UserColumnName="cust_address">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

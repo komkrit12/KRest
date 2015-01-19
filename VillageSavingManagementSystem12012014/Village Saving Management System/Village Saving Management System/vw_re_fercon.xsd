@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="vw_re_fercon" targetNamespace="http://tempuri.org/vw_re_fercon.xsd" xmlns:mstns="http://tempuri.org/vw_re_fercon.xsd" xmlns="http://tempuri.org/vw_re_fercon.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="VillageConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="VillageConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Village_Saving_Management_System.My.MySettings.GlobalReference.Default.VillageConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vw_re_ferconTableAdapter" GeneratorDataComponentClassName="vw_re_ferconTableAdapter" Name="vw_re_fercon" UserDataComponentName="vw_re_ferconTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="VillageConnectionString (MySettings)" DbObjectName="Village.dbo.vw_re_fercon" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Expr1, Expr2, contract_fer_no, cust_id, fer_id, buy_amount, sum_price, sum_interest, sum, pay_date, create_date, createby, guarantee_no1, status FROM dbo.vw_re_fercon</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+              <Mapping SourceColumn="Expr2" DataSetColumn="Expr2" />
+              <Mapping SourceColumn="contract_fer_no" DataSetColumn="contract_fer_no" />
+              <Mapping SourceColumn="cust_id" DataSetColumn="cust_id" />
+              <Mapping SourceColumn="fer_id" DataSetColumn="fer_id" />
+              <Mapping SourceColumn="buy_amount" DataSetColumn="buy_amount" />
+              <Mapping SourceColumn="sum_price" DataSetColumn="sum_price" />
+              <Mapping SourceColumn="sum_interest" DataSetColumn="sum_interest" />
+              <Mapping SourceColumn="sum" DataSetColumn="sum" />
+              <Mapping SourceColumn="pay_date" DataSetColumn="pay_date" />
+              <Mapping SourceColumn="create_date" DataSetColumn="create_date" />
+              <Mapping SourceColumn="createby" DataSetColumn="createby" />
+              <Mapping SourceColumn="guarantee_no1" DataSetColumn="guarantee_no1" />
+              <Mapping SourceColumn="status" DataSetColumn="status" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="vw_re_fercon" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="vw_re_fercon" msprop:Generator_UserDSName="vw_re_fercon">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vw_re_fercon" msprop:Generator_TableClassName="vw_re_ferconDataTable" msprop:Generator_TableVarName="tablevw_re_fercon" msprop:Generator_TablePropName="_vw_re_fercon" msprop:Generator_RowDeletingName="vw_re_ferconRowDeleting" msprop:Generator_UserTableName="vw_re_fercon" msprop:Generator_RowChangingName="vw_re_ferconRowChanging" msprop:Generator_RowEvHandlerName="vw_re_ferconRowChangeEventHandler" msprop:Generator_RowDeletedName="vw_re_ferconRowDeleted" msprop:Generator_RowEvArgName="vw_re_ferconRowChangeEvent" msprop:Generator_RowChangedName="vw_re_ferconRowChanged" msprop:Generator_RowClassName="vw_re_ferconRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Expr2" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnExpr2" msprop:Generator_ColumnPropNameInRow="Expr2" msprop:Generator_ColumnPropNameInTable="Expr2Column" msprop:Generator_UserColumnName="Expr2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="102" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="contract_fer_no" msprop:Generator_ColumnVarNameInTable="columncontract_fer_no" msprop:Generator_ColumnPropNameInRow="contract_fer_no" msprop:Generator_ColumnPropNameInTable="contract_fer_noColumn" msprop:Generator_UserColumnName="contract_fer_no">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cust_id" msprop:Generator_ColumnVarNameInTable="columncust_id" msprop:Generator_ColumnPropNameInRow="cust_id" msprop:Generator_ColumnPropNameInTable="cust_idColumn" msprop:Generator_UserColumnName="cust_id">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fer_id" msprop:Generator_ColumnVarNameInTable="columnfer_id" msprop:Generator_ColumnPropNameInRow="fer_id" msprop:Generator_ColumnPropNameInTable="fer_idColumn" msprop:Generator_UserColumnName="fer_id" type="xs:int" minOccurs="0" />
+              <xs:element name="buy_amount" msprop:Generator_ColumnVarNameInTable="columnbuy_amount" msprop:Generator_ColumnPropNameInRow="buy_amount" msprop:Generator_ColumnPropNameInTable="buy_amountColumn" msprop:Generator_UserColumnName="buy_amount" type="xs:double" minOccurs="0" />
+              <xs:element name="sum_price" msprop:Generator_ColumnVarNameInTable="columnsum_price" msprop:Generator_ColumnPropNameInRow="sum_price" msprop:Generator_ColumnPropNameInTable="sum_priceColumn" msprop:Generator_UserColumnName="sum_price" type="xs:double" minOccurs="0" />
+              <xs:element name="sum_interest" msprop:Generator_ColumnVarNameInTable="columnsum_interest" msprop:Generator_ColumnPropNameInRow="sum_interest" msprop:Generator_ColumnPropNameInTable="sum_interestColumn" msprop:Generator_UserColumnName="sum_interest" type="xs:double" minOccurs="0" />
+              <xs:element name="sum" msprop:Generator_ColumnVarNameInTable="columnsum" msprop:Generator_ColumnPropNameInRow="sum" msprop:Generator_ColumnPropNameInTable="sumColumn" msprop:Generator_UserColumnName="sum" type="xs:double" minOccurs="0" />
+              <xs:element name="pay_date" msprop:Generator_ColumnVarNameInTable="columnpay_date" msprop:Generator_ColumnPropNameInRow="pay_date" msprop:Generator_ColumnPropNameInTable="pay_dateColumn" msprop:Generator_UserColumnName="pay_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="create_date" msprop:Generator_ColumnVarNameInTable="columncreate_date" msprop:Generator_ColumnPropNameInRow="create_date" msprop:Generator_ColumnPropNameInTable="create_dateColumn" msprop:Generator_UserColumnName="create_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="createby" msprop:Generator_ColumnVarNameInTable="columncreateby" msprop:Generator_ColumnPropNameInRow="createby" msprop:Generator_ColumnPropNameInTable="createbyColumn" msprop:Generator_UserColumnName="createby" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="guarantee_no1" msprop:Generator_ColumnVarNameInTable="columnguarantee_no1" msprop:Generator_ColumnPropNameInRow="guarantee_no1" msprop:Generator_ColumnPropNameInTable="guarantee_no1Column" msprop:Generator_UserColumnName="guarantee_no1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:vw_re_fercon" />
+      <xs:field xpath="mstns:Expr1" />
+      <xs:field xpath="mstns:contract_fer_no" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

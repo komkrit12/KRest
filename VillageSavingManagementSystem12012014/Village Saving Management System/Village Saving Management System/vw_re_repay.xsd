@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="vw_re_repay" targetNamespace="http://tempuri.org/vw_re_repay.xsd" xmlns:mstns="http://tempuri.org/vw_re_repay.xsd" xmlns="http://tempuri.org/vw_re_repay.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="VillageConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="VillageConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Village_Saving_Management_System.My.MySettings.GlobalReference.Default.VillageConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vw_re_repayTableAdapter" GeneratorDataComponentClassName="vw_re_repayTableAdapter" Name="vw_re_repay" UserDataComponentName="vw_re_repayTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="VillageConnectionString (MySettings)" DbObjectName="Village.dbo.vw_re_repay" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT contract_no, create_date, pay_value, cust_address, cust_id, createby FROM dbo.vw_re_repay</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="contract_no" DataSetColumn="contract_no" />
+              <Mapping SourceColumn="create_date" DataSetColumn="create_date" />
+              <Mapping SourceColumn="pay_value" DataSetColumn="pay_value" />
+              <Mapping SourceColumn="cust_address" DataSetColumn="cust_address" />
+              <Mapping SourceColumn="cust_id" DataSetColumn="cust_id" />
+              <Mapping SourceColumn="createby" DataSetColumn="createby" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="vw_re_repay" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="vw_re_repay" msprop:Generator_UserDSName="vw_re_repay">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vw_re_repay" msprop:Generator_TableClassName="vw_re_repayDataTable" msprop:Generator_TableVarName="tablevw_re_repay" msprop:Generator_TablePropName="_vw_re_repay" msprop:Generator_RowDeletingName="vw_re_repayRowDeleting" msprop:Generator_UserTableName="vw_re_repay" msprop:Generator_RowChangingName="vw_re_repayRowChanging" msprop:Generator_RowEvHandlerName="vw_re_repayRowChangeEventHandler" msprop:Generator_RowDeletedName="vw_re_repayRowDeleted" msprop:Generator_RowEvArgName="vw_re_repayRowChangeEvent" msprop:Generator_RowChangedName="vw_re_repayRowChanged" msprop:Generator_RowClassName="vw_re_repayRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="contract_no" msprop:Generator_ColumnVarNameInTable="columncontract_no" msprop:Generator_ColumnPropNameInRow="contract_no" msprop:Generator_ColumnPropNameInTable="contract_noColumn" msprop:Generator_UserColumnName="contract_no">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="create_date" msprop:Generator_ColumnVarNameInTable="columncreate_date" msprop:Generator_ColumnPropNameInRow="create_date" msprop:Generator_ColumnPropNameInTable="create_dateColumn" msprop:Generator_UserColumnName="create_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="pay_value" msprop:Generator_ColumnVarNameInTable="columnpay_value" msprop:Generator_ColumnPropNameInRow="pay_value" msprop:Generator_ColumnPropNameInTable="pay_valueColumn" msprop:Generator_UserColumnName="pay_value" type="xs:double" minOccurs="0" />
+              <xs:element name="cust_address" msprop:Generator_ColumnVarNameInTable="columncust_address" msprop:Generator_ColumnPropNameInRow="cust_address" msprop:Generator_ColumnPropNameInTable="cust_addressColumn" msprop:Generator_UserColumnName="cust_address">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cust_id" msprop:Generator_ColumnVarNameInTable="columncust_id" msprop:Generator_ColumnPropNameInRow="cust_id" msprop:Generator_ColumnPropNameInTable="cust_idColumn" msprop:Generator_UserColumnName="cust_id">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="createby" msprop:Generator_ColumnVarNameInTable="columncreateby" msprop:Generator_ColumnPropNameInRow="createby" msprop:Generator_ColumnPropNameInTable="createbyColumn" msprop:Generator_UserColumnName="createby" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

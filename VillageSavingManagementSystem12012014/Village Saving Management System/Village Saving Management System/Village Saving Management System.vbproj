@@ -1,0 +1,1256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{319D81D1-3252-4EF0-9BFF-53EC4641DA2C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>Village_Saving_Management_System</RootNamespace>
+    <AssemblyName>Village Saving Management System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Village Saving Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Village Saving Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="all_customer_con.Designer.vb">
+      <DependentUpon>all_customer_con.vb</DependentUpon>
+    </Compile>
+    <Compile Include="all_customer_con.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="all_customer_fercon.Designer.vb">
+      <DependentUpon>all_customer_fercon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="all_customer_fercon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="all_customer_ferpay.Designer.vb">
+      <DependentUpon>all_customer_ferpay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="all_customer_ferpay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="all_customer_g1.Designer.vb">
+      <DependentUpon>all_customer_g1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="all_customer_g1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="all_customer_g2.Designer.vb">
+      <DependentUpon>all_customer_g2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="all_customer_g2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="all_customer_oilcon.Designer.vb">
+      <DependentUpon>all_customer_oilcon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="all_customer_oilcon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="all_customer_oilpay.Designer.vb">
+      <DependentUpon>all_customer_oilpay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="all_customer_oilpay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="all_customer_pay.Designer.vb">
+      <DependentUpon>all_customer_pay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="all_customer_pay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="all_register.Designer.vb">
+      <DependentUpon>all_register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="all_register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CC_contracts.Designer.vb">
+      <DependentUpon>CC_contracts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CC_contracts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CC_customers.Designer.vb">
+      <DependentUpon>CC_customers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CC_customers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CC_deposit.Designer.vb">
+      <DependentUpon>CC_deposit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CC_deposit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CC_fercon.Designer.vb">
+      <DependentUpon>CC_fercon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CC_fercon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CC_ferpay.Designer.vb">
+      <DependentUpon>CC_ferpay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CC_ferpay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CC_ferstock.Designer.vb">
+      <DependentUpon>CC_ferstock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CC_ferstock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CC_oilcon.Designer.vb">
+      <DependentUpon>CC_oilcon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CC_oilcon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CC_oilpay.Designer.vb">
+      <DependentUpon>CC_oilpay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CC_oilpay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CC_oilstock.Designer.vb">
+      <DependentUpon>CC_oilstock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CC_oilstock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CC_payment.Designer.vb">
+      <DependentUpon>CC_payment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CC_payment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CC_withdrawal.Designer.vb">
+      <DependentUpon>CC_withdrawal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CC_withdrawal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NC_contracts.Designer.vb">
+      <DependentUpon>NC_contracts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NC_contracts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NC_customers.Designer.vb">
+      <DependentUpon>NC_customers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NC_customers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NC_deposit.Designer.vb">
+      <DependentUpon>NC_deposit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NC_deposit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NC_fercon.Designer.vb">
+      <DependentUpon>NC_fercon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NC_fercon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NC_ferpay.Designer.vb">
+      <DependentUpon>NC_ferpay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NC_ferpay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NC_ferstock.Designer.vb">
+      <DependentUpon>NC_ferstock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NC_ferstock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NC_oilcon.Designer.vb">
+      <DependentUpon>NC_oilcon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NC_oilcon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NC_oilpay.Designer.vb">
+      <DependentUpon>NC_oilpay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NC_oilpay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NC_oilstock.Designer.vb">
+      <DependentUpon>NC_oilstock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NC_oilstock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NC_payment.Designer.vb">
+      <DependentUpon>NC_payment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NC_payment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NC_withdrawal.Designer.vb">
+      <DependentUpon>NC_withdrawal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NC_withdrawal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oil_buy.Designer.vb">
+      <DependentUpon>oil_buy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="oil_buy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cancel.Designer.vb">
+      <DependentUpon>Cancel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cancel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="class_conn.vb" />
+    <Compile Include="common_text.vb" />
+    <Compile Include="contracts.Designer.vb">
+      <DependentUpon>contracts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="contracts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fer_buy.Designer.vb">
+      <DependentUpon>fer_buy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fer_buy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home2.Designer.vb">
+      <DependentUpon>home2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="home2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="receipt_ferpay.Designer.vb">
+      <DependentUpon>receipt_ferpay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="receipt_ferpay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="receipt_oilpay.Designer.vb">
+      <DependentUpon>receipt_oilpay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="receipt_oilpay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="receipt_pay.Designer.vb">
+      <DependentUpon>receipt_pay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="receipt_pay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Re_withdrawal.Designer.vb">
+      <DependentUpon>Re_withdrawal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Re_withdrawal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fer_Add.Designer.vb">
+      <DependentUpon>Fer_Add.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fer_Add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oil_Add.Designer.vb">
+      <DependentUpon>Oil_Add.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Oil_Add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.vb">
+      <DependentUpon>Register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add.Designer.vb">
+      <DependentUpon>Add.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deposit.Designer.vb">
+      <DependentUpon>Deposit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Deposit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dividend.Designer.vb">
+      <DependentUpon>Dividend.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dividend.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit.Designer.vb">
+      <DependentUpon>Edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fer_Con.Designer.vb">
+      <DependentUpon>Fer_Con.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fer_Con.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fer_Pay.Designer.vb">
+      <DependentUpon>Fer_Pay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fer_Pay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fer_Stock.Designer.vb">
+      <DependentUpon>Fer_Stock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fer_Stock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Oil_Con.Designer.vb">
+      <DependentUpon>Oil_Con.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Oil_Con.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oil_Pay.Designer.vb">
+      <DependentUpon>Oil_Pay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Oil_Pay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oil_Stock.Designer.vb">
+      <DependentUpon>Oil_Stock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Oil_Stock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check.Designer.vb">
+      <DependentUpon>Check.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Check.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment.Designer.vb">
+      <DependentUpon>Payment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Re_deposit.Designer.vb">
+      <DependentUpon>Re_deposit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Re_deposit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Re_dividend.Designer.vb">
+      <DependentUpon>Re_dividend.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Re_dividend.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Re_fercon.Designer.vb">
+      <DependentUpon>Re_fercon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Re_fercon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Re_ferpay.Designer.vb">
+      <DependentUpon>Re_ferpay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Re_ferpay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Re_con.Designer.vb">
+      <DependentUpon>Re_con.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Re_con.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Re_oilcon.Designer.vb">
+      <DependentUpon>Re_oilcon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Re_oilcon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Re_oilpay.Designer.vb">
+      <DependentUpon>Re_oilpay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Re_oilpay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Re_payment.Designer.vb">
+      <DependentUpon>Re_payment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Re_payment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Re_customers.Designer.vb">
+      <DependentUpon>Re_customers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Re_customers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.vb">
+      <DependentUpon>Search.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Search.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VillageDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VillageDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="VillageDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VillageDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Village_Saving.Designer.vb">
+      <DependentUpon>Village_Saving.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Village_Saving.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vw_cust.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_cust.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_con.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_con.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_dividend2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_dividend2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_dividend3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_dividend3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_fer3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_fer3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_fercon1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_fercon1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_fercon2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_fercon2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_fercon3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_fercon3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_ferpay2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_ferpay2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_ferpay3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_ferpay3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_login.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_login.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_oil.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_oil.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_oilcon.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_oilcon.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_oilcon2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_oilcon2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_oilcon3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_oilcon3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_oilpay.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_oilpay.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_oilpay3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_oilpay3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_pay.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_pay.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_repay.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_repay.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_repay2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_repay2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_tran.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_tran.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_re_trans_w.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_re_trans_w.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vw_trantest.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vw_trantest.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Withdrawal.Designer.vb">
+      <DependentUpon>Withdrawal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Withdrawal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="all_customer_con.resx">
+      <DependentUpon>all_customer_con.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="all_customer_fercon.resx">
+      <DependentUpon>all_customer_fercon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="all_customer_ferpay.resx">
+      <DependentUpon>all_customer_ferpay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="all_customer_g1.resx">
+      <DependentUpon>all_customer_g1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="all_customer_g2.resx">
+      <DependentUpon>all_customer_g2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="all_customer_oilcon.resx">
+      <DependentUpon>all_customer_oilcon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="all_customer_oilpay.resx">
+      <DependentUpon>all_customer_oilpay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="all_customer_pay.resx">
+      <DependentUpon>all_customer_pay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="all_register.resx">
+      <DependentUpon>all_register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CC_contracts.resx">
+      <DependentUpon>CC_contracts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CC_customers.resx">
+      <DependentUpon>CC_customers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CC_deposit.resx">
+      <DependentUpon>CC_deposit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CC_fercon.resx">
+      <DependentUpon>CC_fercon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CC_ferpay.resx">
+      <DependentUpon>CC_ferpay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CC_ferstock.resx">
+      <DependentUpon>CC_ferstock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CC_oilcon.resx">
+      <DependentUpon>CC_oilcon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CC_oilpay.resx">
+      <DependentUpon>CC_oilpay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CC_oilstock.resx">
+      <DependentUpon>CC_oilstock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CC_payment.resx">
+      <DependentUpon>CC_payment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CC_withdrawal.resx">
+      <DependentUpon>CC_withdrawal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NC_contracts.resx">
+      <DependentUpon>NC_contracts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NC_customers.resx">
+      <DependentUpon>NC_customers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NC_deposit.resx">
+      <DependentUpon>NC_deposit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NC_fercon.resx">
+      <DependentUpon>NC_fercon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NC_ferpay.resx">
+      <DependentUpon>NC_ferpay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NC_ferstock.resx">
+      <DependentUpon>NC_ferstock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NC_oilcon.resx">
+      <DependentUpon>NC_oilcon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NC_oilpay.resx">
+      <DependentUpon>NC_oilpay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NC_oilstock.resx">
+      <DependentUpon>NC_oilstock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NC_payment.resx">
+      <DependentUpon>NC_payment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NC_withdrawal.resx">
+      <DependentUpon>NC_withdrawal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oil_buy.resx">
+      <DependentUpon>oil_buy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cancel.resx">
+      <DependentUpon>Cancel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contracts.resx">
+      <DependentUpon>contracts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fer_buy.resx">
+      <DependentUpon>fer_buy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home2.resx">
+      <DependentUpon>home2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="receipt_ferpay.resx">
+      <DependentUpon>receipt_ferpay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="receipt_oilpay.resx">
+      <DependentUpon>receipt_oilpay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="receipt_pay.resx">
+      <DependentUpon>receipt_pay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\re_withdrawal.rdlc" />
+    <EmbeddedResource Include="Re_withdrawal.resx">
+      <DependentUpon>Re_withdrawal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fer_Add.resx">
+      <DependentUpon>Fer_Add.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oil_Add.resx">
+      <DependentUpon>Oil_Add.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add.resx">
+      <DependentUpon>Add.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deposit.resx">
+      <DependentUpon>Deposit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dividend.resx">
+      <DependentUpon>Dividend.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit.resx">
+      <DependentUpon>Edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fer_Con.resx">
+      <DependentUpon>Fer_Con.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fer_Pay.resx">
+      <DependentUpon>Fer_Pay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fer_Stock.resx">
+      <DependentUpon>Fer_Stock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oil_Con.resx">
+      <DependentUpon>Oil_Con.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oil_Pay.resx">
+      <DependentUpon>Oil_Pay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oil_Stock.resx">
+      <DependentUpon>Oil_Stock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Check.resx">
+      <DependentUpon>Check.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.resx">
+      <DependentUpon>Payment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\receipt_fer.rdlc" />
+    <EmbeddedResource Include="Report\receipt_pay.rdlc" />
+    <EmbeddedResource Include="Report\re_cust.rdlc" />
+    <EmbeddedResource Include="Report\re_deposit.rdlc" />
+    <EmbeddedResource Include="Report\re_dividend.rdlc" />
+    <EmbeddedResource Include="Report\re_fercon.rdlc" />
+    <EmbeddedResource Include="Report\re_con.rdlc" />
+    <EmbeddedResource Include="Report\re_ferpay.rdlc" />
+    <EmbeddedResource Include="Report\re_login.rdlc" />
+    <EmbeddedResource Include="Report\receipt_oil.rdlc" />
+    <EmbeddedResource Include="Report\re_oilcon.rdlc" />
+    <EmbeddedResource Include="Report\re_oilpay.rdlc" />
+    <EmbeddedResource Include="Report\re_payment.rdlc" />
+    <EmbeddedResource Include="Re_deposit.resx">
+      <DependentUpon>Re_deposit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Re_dividend.resx">
+      <DependentUpon>Re_dividend.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Re_fercon.resx">
+      <DependentUpon>Re_fercon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Re_ferpay.resx">
+      <DependentUpon>Re_ferpay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Re_con.resx">
+      <DependentUpon>Re_con.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Re_oilcon.resx">
+      <DependentUpon>Re_oilcon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Re_oilpay.resx">
+      <DependentUpon>Re_oilpay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Re_payment.resx">
+      <DependentUpon>Re_payment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Re_customers.resx">
+      <DependentUpon>Re_customers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Village_Saving.resx">
+      <DependentUpon>Village_Saving.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Withdrawal.resx">
+      <DependentUpon>Withdrawal.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="VillageDataSet.xsc">
+      <DependentUpon>VillageDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="VillageDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VillageDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="VillageDataSet.xss">
+      <DependentUpon>VillageDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="VillageDataSet1.xsc">
+      <DependentUpon>VillageDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="VillageDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VillageDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="VillageDataSet1.xss">
+      <DependentUpon>VillageDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="vw_cust.xsc">
+      <DependentUpon>vw_cust.xsd</DependentUpon>
+    </None>
+    <None Include="vw_cust.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_cust.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_cust.xss">
+      <DependentUpon>vw_cust.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_con.xsc">
+      <DependentUpon>vw_re_con.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_con.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_con.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_con.xss">
+      <DependentUpon>vw_re_con.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_dividend2.xsc">
+      <DependentUpon>vw_re_dividend2.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_dividend2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_dividend2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_dividend2.xss">
+      <DependentUpon>vw_re_dividend2.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_dividend3.xsc">
+      <DependentUpon>vw_re_dividend3.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_dividend3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_dividend3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_dividend3.xss">
+      <DependentUpon>vw_re_dividend3.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_fer3.xsc">
+      <DependentUpon>vw_re_fer3.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_fer3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_fer3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_fer3.xss">
+      <DependentUpon>vw_re_fer3.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_fercon1.xsc">
+      <DependentUpon>vw_re_fercon1.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_fercon1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_fercon1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_fercon1.xss">
+      <DependentUpon>vw_re_fercon1.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_fercon2.xsc">
+      <DependentUpon>vw_re_fercon2.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_fercon2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_fercon2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_fercon2.xss">
+      <DependentUpon>vw_re_fercon2.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_fercon3.xsc">
+      <DependentUpon>vw_re_fercon3.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_fercon3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_fercon3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_fercon3.xss">
+      <DependentUpon>vw_re_fercon3.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_ferpay2.xsc">
+      <DependentUpon>vw_re_ferpay2.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_ferpay2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_ferpay2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_ferpay2.xss">
+      <DependentUpon>vw_re_ferpay2.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_ferpay3.xsc">
+      <DependentUpon>vw_re_ferpay3.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_ferpay3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_ferpay3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_ferpay3.xss">
+      <DependentUpon>vw_re_ferpay3.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_login.xsc">
+      <DependentUpon>vw_re_login.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_login.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_login.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_login.xss">
+      <DependentUpon>vw_re_login.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_oil.xsc">
+      <DependentUpon>vw_re_oil.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_oil.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_oil.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_oil.xss">
+      <DependentUpon>vw_re_oil.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_oilcon.xsc">
+      <DependentUpon>vw_re_oilcon.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_oilcon.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_oilcon.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_oilcon.xss">
+      <DependentUpon>vw_re_oilcon.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_oilcon2.xsc">
+      <DependentUpon>vw_re_oilcon2.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_oilcon2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_oilcon2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_oilcon2.xss">
+      <DependentUpon>vw_re_oilcon2.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_oilcon3.xsc">
+      <DependentUpon>vw_re_oilcon3.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_oilcon3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_oilcon3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_oilcon3.xss">
+      <DependentUpon>vw_re_oilcon3.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_oilpay.xsc">
+      <DependentUpon>vw_re_oilpay.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_oilpay.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_oilpay.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_oilpay.xss">
+      <DependentUpon>vw_re_oilpay.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_oilpay3.xsc">
+      <DependentUpon>vw_re_oilpay3.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_oilpay3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_oilpay3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_oilpay3.xss">
+      <DependentUpon>vw_re_oilpay3.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_pay.xsc">
+      <DependentUpon>vw_re_pay.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_pay.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_pay.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_pay.xss">
+      <DependentUpon>vw_re_pay.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_repay.xsc">
+      <DependentUpon>vw_re_repay.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_repay.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_repay.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_repay.xss">
+      <DependentUpon>vw_re_repay.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_repay2.xsc">
+      <DependentUpon>vw_re_repay2.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_repay2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_repay2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_repay2.xss">
+      <DependentUpon>vw_re_repay2.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_tran.xsc">
+      <DependentUpon>vw_re_tran.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_tran.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_tran.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_tran.xss">
+      <DependentUpon>vw_re_tran.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_trans_w.xsc">
+      <DependentUpon>vw_re_trans_w.xsd</DependentUpon>
+    </None>
+    <None Include="vw_re_trans_w.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_re_trans_w.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_re_trans_w.xss">
+      <DependentUpon>vw_re_trans_w.xsd</DependentUpon>
+    </None>
+    <None Include="vw_trantest.xsc">
+      <DependentUpon>vw_trantest.xsd</DependentUpon>
+    </None>
+    <None Include="vw_trantest.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vw_trantest.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vw_trantest.xss">
+      <DependentUpon>vw_trantest.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signin_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\savings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piggy_bank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fertilizer_II.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oilicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconreports.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-mid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\membericon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconSave1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer-blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_okk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-user-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adduser_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Del_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\officer_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cal_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notification.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shopping.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

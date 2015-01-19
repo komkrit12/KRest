@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="vw_re_login" targetNamespace="http://tempuri.org/vw_re_login.xsd" xmlns:mstns="http://tempuri.org/vw_re_login.xsd" xmlns="http://tempuri.org/vw_re_login.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="VillageConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="VillageConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Village_Saving_Management_System.My.MySettings.GlobalReference.Default.VillageConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vw_loginTableAdapter" GeneratorDataComponentClassName="vw_loginTableAdapter" Name="vw_login" UserDataComponentName="vw_loginTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="VillageConnectionString (MySettings)" DbObjectName="Village.dbo.vw_login" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT login_id, register_id, use_date, out_date, username, position FROM dbo.vw_login</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="login_id" DataSetColumn="login_id" />
+              <Mapping SourceColumn="register_id" DataSetColumn="register_id" />
+              <Mapping SourceColumn="use_date" DataSetColumn="use_date" />
+              <Mapping SourceColumn="out_date" DataSetColumn="out_date" />
+              <Mapping SourceColumn="username" DataSetColumn="username" />
+              <Mapping SourceColumn="position" DataSetColumn="position" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="vw_re_login" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="vw_re_login" msprop:Generator_UserDSName="vw_re_login">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vw_login" msprop:Generator_TableClassName="vw_loginDataTable" msprop:Generator_TableVarName="tablevw_login" msprop:Generator_TablePropName="vw_login" msprop:Generator_RowDeletingName="vw_loginRowDeleting" msprop:Generator_UserTableName="vw_login" msprop:Generator_RowChangingName="vw_loginRowChanging" msprop:Generator_RowEvHandlerName="vw_loginRowChangeEventHandler" msprop:Generator_RowDeletedName="vw_loginRowDeleted" msprop:Generator_RowEvArgName="vw_loginRowChangeEvent" msprop:Generator_RowChangedName="vw_loginRowChanged" msprop:Generator_RowClassName="vw_loginRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="login_id" msprop:Generator_ColumnVarNameInTable="columnlogin_id" msprop:Generator_ColumnPropNameInRow="login_id" msprop:Generator_ColumnPropNameInTable="login_idColumn" msprop:Generator_UserColumnName="login_id" type="xs:int" />
+              <xs:element name="register_id" msprop:Generator_ColumnVarNameInTable="columnregister_id" msprop:Generator_ColumnPropNameInRow="register_id" msprop:Generator_ColumnPropNameInTable="register_idColumn" msprop:Generator_UserColumnName="register_id" type="xs:int" minOccurs="0" />
+              <xs:element name="use_date" msprop:Generator_ColumnVarNameInTable="columnuse_date" msprop:Generator_ColumnPropNameInRow="use_date" msprop:Generator_ColumnPropNameInTable="use_dateColumn" msprop:Generator_UserColumnName="use_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="out_date" msprop:Generator_ColumnVarNameInTable="columnout_date" msprop:Generator_ColumnPropNameInRow="out_date" msprop:Generator_ColumnPropNameInTable="out_dateColumn" msprop:Generator_UserColumnName="out_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="username" msprop:Generator_ColumnVarNameInTable="columnusername" msprop:Generator_ColumnPropNameInRow="username" msprop:Generator_ColumnPropNameInTable="usernameColumn" msprop:Generator_UserColumnName="username">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="position" msprop:Generator_ColumnVarNameInTable="columnposition" msprop:Generator_ColumnPropNameInRow="position" msprop:Generator_ColumnPropNameInTable="positionColumn" msprop:Generator_UserColumnName="position" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:vw_login" />
+      <xs:field xpath="mstns:login_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

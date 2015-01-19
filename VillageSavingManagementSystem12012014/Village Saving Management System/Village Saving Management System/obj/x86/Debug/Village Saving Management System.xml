@@ -1,0 +1,2444 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+VillageSavingManagementSystem
+</name>
+</assembly>
+<members>
+<member name="T:Village_Saving_Management_System.vw_re_login.vw_loginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_login.vw_loginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_login.vw_loginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_login">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_loginTableAdapters.vw_loginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_loginTableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_login,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_loginTableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_login,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_loginTableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_login,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_loginTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_loginTableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_login)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_loginTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_loginTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_loginTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_tran.vw_re_tranDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_tran.vw_re_tranRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_tran.vw_re_tranRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_tran">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_tranTableAdapters.vw_re_tranTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_tranTableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_tran,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_tranTableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_tran,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_tranTableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_tran,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_tranTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_tranTableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_tran)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_tranTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_tranTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_tranTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fercon.vw_re_ferconDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fercon.vw_re_ferconRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fercon.vw_re_ferconRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fercon">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_ferconTableAdapters.vw_re_ferconTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_ferconTableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_fercon,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_ferconTableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_fercon,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_ferconTableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_fercon,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_ferconTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_ferconTableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_fercon)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_ferconTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_ferconTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_ferconTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_ferpay2.vw_re_ferpayDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_ferpay2.vw_re_ferpayRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_ferpay2.vw_re_ferpayRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_ferpay2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_ferpay2TableAdapters.vw_re_ferpayTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_ferpay2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_ferpay2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_ferpay2TableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_ferpay2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_ferpay2TableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_ferpay2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_ferpay2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_ferpay2TableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_ferpay2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_ferpay2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_ferpay2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_ferpay2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilcon3.vw_re_oilconDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilcon3.vw_re_oilconRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilcon3.vw_re_oilconRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilcon3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilcon3TableAdapters.vw_re_oilconTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilcon3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_oilcon3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilcon3TableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_oilcon3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilcon3TableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_oilcon3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilcon3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilcon3TableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_oilcon3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilcon3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilcon3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilcon3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_repay2.vw_re_repayDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_repay2.vw_re_repayRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_repay2.vw_re_repayRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_repay2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_repay2TableAdapters.vw_re_repayTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_repay2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_repay2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_repay2TableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_repay2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_repay2TableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_repay2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_repay2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_repay2TableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_repay2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_repay2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_repay2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_repay2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_pay.vw_re_payDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_pay.vw_re_payRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_pay.vw_re_payRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_pay">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_payTableAdapters.vw_re_payTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_payTableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_pay,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_payTableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_pay,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_payTableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_pay,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_payTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_payTableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_pay)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_payTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_payTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_payTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilcon.vw_re_oilconDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilcon.vw_re_oilconRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilcon.vw_re_oilconRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilcon">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilconTableAdapters.vw_re_oilconTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilconTableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_oilcon,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilconTableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_oilcon,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilconTableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_oilcon,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilconTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilconTableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_oilcon)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilconTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilconTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilconTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fercon3.vw_re_ferconDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fercon3.vw_re_ferconRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fercon3.vw_re_ferconRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fercon3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fercon3TableAdapters.vw_re_ferconTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_fercon3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_fercon3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_fercon3TableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_fercon3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_fercon3TableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_fercon3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_fercon3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_fercon3TableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_fercon3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fercon3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fercon3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fercon3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilcon2.vw_re_oilconDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilcon2.vw_re_oilconRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilcon2.vw_re_oilconRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilcon2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilcon2TableAdapters.vw_re_oilconTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilcon2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_oilcon2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilcon2TableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_oilcon2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilcon2TableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_oilcon2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilcon2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilcon2TableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_oilcon2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilcon2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilcon2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilcon2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_cust.customersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_cust.customersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_cust.customersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_cust">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_custTableAdapters.customersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_custTableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_cust,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_custTableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_cust,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_custTableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_cust,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_custTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_custTableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_cust)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_custTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_custTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_custTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_dividend3.vw_re_dividendDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_dividend3.vw_re_dividendRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_dividend3.vw_re_dividendRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_dividend3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_dividend3TableAdapters.vw_re_dividendTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_dividend3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_dividend3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_dividend3TableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_dividend3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_dividend3TableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_dividend3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_dividend3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_dividend3TableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_dividend3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_dividend3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_dividend3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_dividend3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilpay3.vw_re_oilpayDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilpay3.vw_re_oilpayRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilpay3.vw_re_oilpayRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilpay3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilpay3TableAdapters.vw_re_oilpayTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilpay3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_oilpay3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilpay3TableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_oilpay3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilpay3TableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_oilpay3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilpay3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilpay3TableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_oilpay3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilpay3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilpay3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilpay3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_repay.vw_re_repayDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_repay.vw_re_repayRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_repay.vw_re_repayRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_repay">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_repayTableAdapters.vw_re_repayTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_repayTableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_repay,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_repayTableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_repay,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_repayTableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_repay,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_repayTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_repayTableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_repay)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_repayTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_repayTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_repayTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_trans_w.vw_transDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_trans_w.vw_transRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_trans_w.vw_transRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_trans_w">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_trans_wTableAdapters.vw_transTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_trans_wTableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_trans_w,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_trans_wTableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_trans_w,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_trans_wTableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_trans_w,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_trans_wTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_trans_wTableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_trans_w)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_trans_wTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_trans_wTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_trans_wTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.contractsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.customersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.dividendDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.fer_contractsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.fer_paymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.fer_receiveDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.fertilizerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.loginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.oilDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.oil_contractsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.oil_paymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.oil_stockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.paymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.registerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.transectionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.villageDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.trans_vw1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.trans_vw2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.trans_vw3DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.trans_vw4DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_01DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_conDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_fer1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_fer2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_ferconDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_fercon2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_ferferDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_ferstockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_oil_payDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_oil1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_oil2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_oilconDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_oilcon2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_oiloilDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_transDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.contractsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.customersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.dividendRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.fer_contractsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.fer_paymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.fer_receiveRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.fertilizerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.loginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.oilRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.oil_contractsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.oil_paymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.oil_stockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.paymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.registerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.transectionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.villageRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.trans_vw1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.trans_vw2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.trans_vw3Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.trans_vw4Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_01Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_conRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_fer1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_fer2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_ferconRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_fercon2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_ferferRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_ferstockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_oil_payRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_oil1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_oil2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_oilconRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_oilcon2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_oiloilRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_transRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.contractsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.customersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.dividendRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.fer_contractsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.fer_paymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.fer_receiveRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.fertilizerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.loginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.oilRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.oil_contractsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.oil_paymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.oil_stockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.paymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.registerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.transectionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.villageRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.trans_vw1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.trans_vw2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.trans_vw3RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.trans_vw4RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_01RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_conRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_fer1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_fer2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_ferconRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_fercon2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_ferferRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_ferstockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_oil_payRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_oil1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_oil2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_oilconRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_oilcon2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_oiloilRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet.vw_transRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.contractsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.customersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.dividendTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.fer_contractsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.fer_paymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.fer_receiveTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.fertilizerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.loginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.oilTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.oil_contractsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.oil_paymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.oil_stockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.paymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.registerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.transectionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.villageTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.trans_vw1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.trans_vw2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.trans_vw3TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.trans_vw4TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.vw_01TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.vw_conTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.vw_fer1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.vw_fer2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.vw_ferconTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.vw_fercon2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.vw_ferferTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.vw_ferstockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.vw_oil_payTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.vw_oil1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.vw_oil2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.vw_oilconTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.vw_oilcon2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.vw_oiloilTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.vw_transTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.VillageDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.VillageDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.VillageDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.VillageDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.VillageDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.VillageDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.VillageDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.VillageDataSetTableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.VillageDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.contractsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.customersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.dividendDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.fer_contractsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.fer_paymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.fer_receiveDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.fertilizerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.loginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.oilDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.oil_contractsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.oil_paymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.oil_stockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.paymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.registerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.transectionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.villageDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.trans_vw1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.trans_vw2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.trans_vw3DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.trans_vw4DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.ve_re_conDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_01DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_conDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_fer1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_fer2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_ferconDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_fercon2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_ferferDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_ferstockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_oil_payDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_oil1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_oil2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_oilconDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_oilcon2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_oiloilDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_ReferDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_transDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.contractsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.customersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.dividendRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.fer_contractsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.fer_paymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.fer_receiveRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.fertilizerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.loginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.oilRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.oil_contractsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.oil_paymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.oil_stockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.paymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.registerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.transectionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.villageRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.trans_vw1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.trans_vw2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.trans_vw3Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.trans_vw4Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.ve_re_conRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_01Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_conRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_fer1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_fer2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_ferconRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_fercon2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_ferferRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_ferstockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_oil_payRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_oil1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_oil2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_oilconRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_oilcon2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_oiloilRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_ReferRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_transRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.contractsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.customersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.dividendRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.fer_contractsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.fer_paymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.fer_receiveRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.fertilizerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.loginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.oilRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.oil_contractsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.oil_paymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.oil_stockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.paymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.registerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.transectionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.villageRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.trans_vw1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.trans_vw2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.trans_vw3RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.trans_vw4RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.ve_re_conRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_01RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_conRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_fer1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_fer2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_ferconRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_fercon2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_ferferRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_ferstockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_oil_payRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_oil1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_oil2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_oilconRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_oilcon2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_oiloilRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_ReferRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1.vw_transRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.contractsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.customersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.dividendTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.fer_contractsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.fer_paymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.fer_receiveTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.fertilizerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.loginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.oilTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.oil_contractsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.oil_paymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.oil_stockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.paymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.registerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.transectionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.villageTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.trans_vw1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.trans_vw2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.trans_vw3TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.trans_vw4TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.ve_re_conTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.vw_01TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.vw_conTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.vw_fer1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.vw_fer2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.vw_ferconTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.vw_fercon2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.vw_ferferTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.vw_ferstockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.vw_oil_payTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.vw_oil1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.vw_oil2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.vw_oilconTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.vw_oilcon2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.vw_oiloilTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.vw_ReferTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.vw_transTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.VillageDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.VillageDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.VillageDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.VillageDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.VillageDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.VillageDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.VillageDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.VillageDataSet1TableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.VillageDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.VillageDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_con.ve_re_conDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_con.ve_re_conRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_con.ve_re_conRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_con">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_conTableAdapters.ve_re_conTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_conTableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_con,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_conTableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_con,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_conTableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_con,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_conTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_conTableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_con)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_conTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_conTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_conTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fer3.vw_re_ferDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fer3.vw_re_ferRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fer3.vw_re_ferRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fer3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fer3TableAdapters.vw_re_ferTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_fer3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_fer3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_fer3TableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_fer3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_fer3TableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_fer3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_fer3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_fer3TableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_fer3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fer3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fer3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fer3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oil.vw_re_oilDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oil.vw_re_oilRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oil.vw_re_oilRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oil">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilTableAdapters.vw_re_oilTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilTableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_oil,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilTableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_oil,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilTableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_oil,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilTableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_oil)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fercon2.vw_re_ferconDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fercon2.vw_re_ferconRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fercon2.vw_re_ferconRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fercon2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fercon2TableAdapters.vw_re_ferconTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_fercon2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_fercon2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_fercon2TableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_fercon2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_fercon2TableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_fercon2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_fercon2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_fercon2TableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_fercon2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fercon2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fercon2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_fercon2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_ferpay3.vw_re_ferpayDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_ferpay3.vw_re_ferpayRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_ferpay3.vw_re_ferpayRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_ferpay3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_ferpay3TableAdapters.vw_re_ferpayTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_ferpay3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_ferpay3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_ferpay3TableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_ferpay3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_ferpay3TableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_ferpay3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_ferpay3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_ferpay3TableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_ferpay3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_ferpay3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_ferpay3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_ferpay3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Village_Saving_Management_System.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Village_Saving_Management_System.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_dividend2.vw_re_dividendDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_dividend2.vw_re_dividendRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_dividend2.vw_re_dividendRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_dividend2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_dividend2TableAdapters.vw_re_dividendTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_dividend2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_dividend2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_dividend2TableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_dividend2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_dividend2TableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_dividend2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_dividend2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_dividend2TableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_dividend2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_dividend2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_dividend2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_dividend2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilpay.vw_re_oilpayDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilpay.vw_re_oilpayRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilpay.vw_re_oilpayRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilpay">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilpayTableAdapters.vw_re_oilpayTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilpayTableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_re_oilpay,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilpayTableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_re_oilpay,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilpayTableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_re_oilpay,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilpayTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_re_oilpayTableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_re_oilpay)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilpayTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilpayTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_re_oilpayTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_trantest.vw_tran_testDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_trantest.vw_tran_testRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_trantest.vw_tran_testRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_trantest">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_trantestTableAdapters.vw_tran_testTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_trantestTableAdapters.TableAdapterManager.UpdateUpdatedRows(Village_Saving_Management_System.vw_trantest,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_trantestTableAdapters.TableAdapterManager.UpdateInsertedRows(Village_Saving_Management_System.vw_trantest,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_trantestTableAdapters.TableAdapterManager.UpdateDeletedRows(Village_Saving_Management_System.vw_trantest,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_trantestTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Village_Saving_Management_System.vw_trantestTableAdapters.TableAdapterManager.UpdateAll(Village_Saving_Management_System.vw_trantest)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_trantestTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_trantestTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Village_Saving_Management_System.vw_trantestTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

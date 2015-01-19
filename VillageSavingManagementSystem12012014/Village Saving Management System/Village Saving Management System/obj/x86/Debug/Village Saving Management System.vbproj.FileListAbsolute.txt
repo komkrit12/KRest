@@ -1,0 +1,475 @@
+D:\WorkShopI\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.exe
+D:\WorkShopI\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.pdb
+D:\WorkShopI\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.xml
+D:\WorkShopI\Village Saving Management System\Village Saving Management System\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\WorkShopI\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Resources.resources
+D:\WorkShopI\Village Saving Management System\Village Saving Management System\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\WorkShopI\Village Saving Management System\Village Saving Management System\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\WorkShopI\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.exe
+D:\WorkShopI\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.xml
+D:\WorkShopI\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.pdb
+D:\WorkShopI\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Login.resources
+D:\WorkShopI\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Add.resources
+D:\WorkShopI\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Home.resources
+D:\WorkShopI\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Search.resources
+D:\WorkShopI\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Contract.resources
+D:\WorkShopI\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Deposit.resources
+D:\WorkShopI\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Edit.resources
+D:\WorkShopI\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Withdrawal.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.exe
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.xml
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.pdb
+D:\Special Problems\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.exe
+D:\Special Problems\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.pdb
+D:\Special Problems\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.xml
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Add.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Contract.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Deposit.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Dividend.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Edit.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Con.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Pay.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Stock.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Home.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Login.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Resources.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Con.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Pay.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Stock.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Payment.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Search.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Withdrawal.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_deposit.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_dividend.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_fercon.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_ferpay.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_loan.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_oilcon.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_oilpay.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_payment.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_withdrawal.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Register.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.exe.config
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Village_Saving.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Check.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\bin\Debug\Village Saving Management System.exe.config
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village Saving Management System.exe
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village Saving Management System.xml
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village Saving Management System.pdb
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\bin\Debug\Village Saving Management System.exe
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\bin\Debug\Village Saving Management System.pdb
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\bin\Debug\Village Saving Management System.xml
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Re.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Register.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Add.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Contract.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Deposit.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Dividend.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Edit.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Con.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Pay.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Re.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Stock.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Home.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Login.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Resources.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Con.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Pay.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Stock.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Check.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Payment.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_deposit.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_dividend.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_fercon.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_ferpay.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_loan.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_oilcon.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_oilpay.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_payment.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_withdrawal.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Search.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Village_Saving.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Withdrawal.resources
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Special Problems\สอบความคืบหน้า\Village Saving Management System\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Add.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Add.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.cancel.resources
+D:\Special Problems\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Search_PopUp.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.exe.config
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.exe
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.xml
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.pdb
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.exe
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.pdb
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.xml
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.cancel.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Add.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Add.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Register.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Add.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Deposit.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Dividend.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Edit.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Con.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Pay.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Stock.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Home.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Login.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Resources.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Con.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Pay.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Stock.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Check.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Payment.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_deposit.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_dividend.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_fercon.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_ferpay.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_oilcon.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_oilpay.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_payment.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Search.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Village_Saving.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Withdrawal.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.exe.config
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.exe
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.xml
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.pdb
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.exe
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.pdb
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.xml
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.cancel.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Add.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Add.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Register.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Add.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Contract.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Deposit.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Dividend.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Edit.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Con.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Pay.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Search_PopUp.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Stock.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Home.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Login.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Resources.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Con.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Pay.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Stock.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Check.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Payment.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_deposit.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_dividend.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_fercon.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_ferpay.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_loan.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_oilcon.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_oilpay.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_payment.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_withdrawal.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Search.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Village_Saving.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Withdrawal.resources
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Village Saving Management System\Village Saving Management System\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_g1.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_g2.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.contracts.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_register.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.home2.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_pay.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_ferpay.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_oilpay.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.fer_buy.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\RdlCompile.cache
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\RdlCompile.compiled
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_con.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_fercon.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.oil_buy.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_customers.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_deposit.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_con.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_oilcon.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_contracts.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_customers.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_deposit.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_fercon.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_ferpay.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_ferstock.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_oilcon.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_oilpay.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_oilstock.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_payment.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_withdrawal.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_contracts.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_fercon.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_ferpay.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_ferstock.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_oilcon.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_oilpay.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_oilstock.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_payment.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_withdrawal.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_customers.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_withdrawal.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.receipt_ferpay.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.receipt_oilpay.resources
+D:\Special Problems\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.receipt_pay.resources
+D:\project_student\VSMS\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.exe.config
+D:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.exe
+D:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.xml
+D:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.pdb
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.exe.config
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.exe
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.xml
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.pdb
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.exe
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.pdb
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.xml
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.vbprojResolveAssemblyReference.cache
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_con.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_fercon.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_ferpay.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_g1.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_g2.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_oilcon.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_oilpay.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_pay.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_register.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_contracts.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_customers.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_deposit.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_fercon.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_ferpay.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_ferstock.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_oilcon.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_oilpay.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_oilstock.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_payment.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_withdrawal.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_contracts.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_customers.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_deposit.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_fercon.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_ferpay.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_ferstock.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_oilcon.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_oilpay.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_oilstock.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_payment.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_withdrawal.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.oil_buy.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.cancel.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.contracts.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.fer_buy.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.home2.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.receipt_ferpay.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.receipt_oilpay.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.receipt_pay.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_withdrawal.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Add.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Add.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Register.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Add.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Deposit.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Dividend.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Edit.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Con.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Pay.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Stock.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Home.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Login.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Resources.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Con.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Pay.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Stock.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Check.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Payment.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_deposit.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_dividend.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_fercon.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_ferpay.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_con.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_oilcon.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_oilpay.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_payment.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_customers.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Search.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Village_Saving.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Withdrawal.resources
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.vbproj.GenerateResource.Cache
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\RdlCompile.cache
+F:\project_student\VSMS\Village Saving Management System\Village Saving Management System\obj\x86\Debug\RdlCompile.compiled
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.exe.config
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.exe
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.xml
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.pdb
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.exe
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.pdb
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.xml
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.vbprojResolveAssemblyReference.cache
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_con.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_fercon.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_ferpay.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_g1.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_g2.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_oilcon.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_oilpay.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_pay.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_register.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_contracts.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_customers.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_deposit.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_fercon.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_ferpay.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_ferstock.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_oilcon.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_oilpay.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_oilstock.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_payment.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_withdrawal.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_contracts.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_customers.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_deposit.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_fercon.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_ferpay.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_ferstock.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_oilcon.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_oilpay.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_oilstock.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_payment.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_withdrawal.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.oil_buy.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.cancel.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.contracts.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.fer_buy.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.home2.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.receipt_ferpay.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.receipt_oilpay.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.receipt_pay.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_withdrawal.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Add.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Add.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Register.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Add.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Deposit.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Dividend.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Edit.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Con.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Pay.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Stock.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Home.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Login.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Resources.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Con.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Pay.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Stock.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Check.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Payment.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_deposit.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_dividend.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_fercon.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_ferpay.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_con.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_oilcon.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_oilpay.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_payment.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_customers.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Search.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Village_Saving.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Withdrawal.resources
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.vbproj.GenerateResource.Cache
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\RdlCompile.cache
+C:\Users\komkrit\Downloads\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\RdlCompile.compiled
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.exe.config
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.exe
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.xml
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.pdb
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.exe
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.pdb
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\bin\Debug\Village Saving Management System.xml
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.vbprojResolveAssemblyReference.cache
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_con.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_fercon.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_ferpay.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_g1.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_g2.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_oilcon.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_oilpay.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_customer_pay.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.all_register.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_contracts.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_customers.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_deposit.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_fercon.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_ferpay.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_ferstock.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_oilcon.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_oilpay.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_oilstock.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_payment.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.CC_withdrawal.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_contracts.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_customers.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_deposit.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_fercon.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_ferpay.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_ferstock.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_oilcon.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_oilpay.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_oilstock.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_payment.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.NC_withdrawal.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.oil_buy.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.cancel.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.contracts.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.fer_buy.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.home2.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.receipt_ferpay.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.receipt_oilpay.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.receipt_pay.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_withdrawal.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Add.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Add.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Register.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Add.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Deposit.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Dividend.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Edit.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Con.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Pay.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Fer_Stock.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Home.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Login.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Resources.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Con.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Pay.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Oil_Stock.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Check.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Payment.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_deposit.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_dividend.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_fercon.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_ferpay.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_con.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_oilcon.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_oilpay.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_payment.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Re_customers.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Search.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Village_Saving.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village_Saving_Management_System.Withdrawal.resources
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\Village Saving Management System.vbproj.GenerateResource.Cache
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\RdlCompile.cache
+C:\Users\komkrit\Desktop\VillageSavingManagementSystem12012014\Village Saving Management System\Village Saving Management System\obj\x86\Debug\RdlCompile.compiled
